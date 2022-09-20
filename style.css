@@ -43,6 +43,7 @@ header h1{
 }
 .georgia-flag{
     width:35px;
+    cursor: pointer;
 }
 .geo-style{
     color:#ffffff;
@@ -155,6 +156,7 @@ header h1{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     font-weight: 800;
+    cursor: pointer;
 }
 .decline-button{
     color: #ffffff;
@@ -167,5 +169,6 @@ header h1{
     border-bottom-right-radius: 50px;
     width:100px;
     font-weight: 800;
+    cursor: pointer;
 }
     
