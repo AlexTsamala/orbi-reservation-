@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans";
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.background-div{
+    background-color: #FFF8F1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 484px;
+    height: 625px;
+}
+header{
+    background-color: #046B5D;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 75px;
+    padding: 10px 35px;
+}
+.header-sections{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.orbi-logo{
+    width:50px;
+}
+header h1{
+    color:#D7AD77;
+    font-size:22px;
+    letter-spacing:-1px;
+    margin-top:5px;
+}
+.georgia-flag{
+    width:35px;
+}
+.geo-style{
+    color:#ffffff;
+    margin-top:4px;
+    font-size:12px;
+}
+.main-section{
+    background-color: #046B5D;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 30px;
+    background-image: url(./assets/21d7f2d71de70f05.svg);
+}
+.triangle{
+    width:20px;
+    height:20px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.my-order{
+    margin-bottom: 20px;
+    display: flex;
+}
+.my-order-text{
+    background-color: #D7AD77;
+    padding: 12px 10px 10px 65px;
+    padding-left: 40px;
+    border: 1px solid #ffffff;
+    color: #046B5D;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 800;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-right: none;
+    width: 100%;
+}
+.informational-spans{
+    color: #046B5D;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 3px 5px #013208;
+    width: 100%;
+}
+.line{
+    background-color: #D7AD77;
+    height: 3px;
+    width: 350px;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transform: translateX(5px);
+}
+.informational-divs{
+    display: flex;
+    flex-direction: column;
+    margin:30px;
+
+}
+.entree-date{
+    margin-bottom: 10px;
+}
+.guest-name{
+    margin-bottom: 10px;
+}
+.triangle{
+    width: 55px;
+    height: 57px;
+    background-color: #D7AD77;
+    border: 1px solid white;
+    clip-path: polygon(0% 0%, 50% 0, 100% 50%, 50% 100%, 0% 100%);
+    border-left: none;
+    margin-left: -25px;
+}
+.first-line{
+    border: none;
+    background-color: white;
+    rotate: 140deg;
+    transform: translate(7px, 11px);
+    height: 37px;
+    width: 1px
+}
+.second-line{
+    border: none;
+    background-color: white;
+    rotate: 41deg;
+    transform: translate(6px, 28px);
+    height: 37px;
+    width: 1px;
+}
+.buttons-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.confirm-button{
+    color: #ffffff;
+    background-color: green;
+    padding: 8px;
+    border: solid 1px white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-weight: 800;
+}
+.decline-button{
+    color: #ffffff;
+    background-color: red;
+    padding: 8px;
+    border: solid 1px white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width:100px;
+    font-weight: 800;
+}
+    
