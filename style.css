@@ -94,6 +94,9 @@ header h1{
     border-top-right-radius: 20px;
     box-shadow: 3px 5px #013208;
     width: 100%;
+    min-height: 39px;
+    display: flex;
+    align-items: center;
 }
 .line{
     background-color: #D7AD77;
@@ -160,6 +163,8 @@ header h1{
     border-bottom-right-radius: 50px;
     font-weight: 800;
     cursor: pointer;
+    min-height:36px;
+    min-width:107px;
 }
 .decline-button{
     color: #ffffff;
@@ -173,5 +178,7 @@ header h1{
     width:100px;
     font-weight: 800;
     cursor: pointer;
+    min-height:36px;
+    min-width:107px;
 }
     
