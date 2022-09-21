@@ -41,9 +41,7 @@ i18next.init({
   });
 
  
-
   flagOfBritain.addEventListener("click",(event) => {
-    
     if(i18next.language==="ka"){
         event.target.src="./assets/Flag_of_Georgia.svg.png";
         language.textContent="GEO";

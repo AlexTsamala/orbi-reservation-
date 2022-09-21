@@ -9,15 +9,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-}
-.background-div{
     background-color: #FFF8F1;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 484px;
-    height: 625px;
 }
 header{
     background-color: #046B5D;
